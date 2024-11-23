@@ -242,6 +242,7 @@ img {
     display: flex;
     gap: 24px;
     align-items: center;
+    justify-content: center;
 }
 
 .team-foto {
@@ -253,7 +254,13 @@ img {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-icons {
+.team-icons-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.team-icons-item {
     width: 40px;
     height: 40px;
 }
@@ -410,6 +417,20 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
+}
+
+.social-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 16px;
 }
 
 .footer-item {
